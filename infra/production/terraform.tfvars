@@ -1,5 +1,4 @@
-domain_name = "thorstensauter.com"
-location    = "westeurope"
+location = "westeurope"
 tags = {
   environment = "Production"
   managed-by  = "Terraform"
