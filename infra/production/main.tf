@@ -1,11 +1,11 @@
 module "mta_sts" {
-  source                    = "github.com/ThorstenSauter/mta-sts-cloudflare-azure-static-web-app?ref=0.1.1"
+  source                    = "github.com/ThorstenSauter/mta-sts-cloudflare-azure-static-web-app?ref=0.1.2"
   domain                    = "thorstensauter.com"
   azure_location            = var.location
   azure_resource_group_name = "rg-mta-sts-thorstensauter-com-prod-001"
   azure_static_web_app_name = "stapp-mta-sts-thorstensauter-com-prod-01"
   azure_tags                = var.tags
-  mta_sts_mode              = "testing"
+  mta_sts_mode              = "enforce"
   mx_hosts = [
     "thorstensauter-com.n-v1.mx.microsoft"
   ]
