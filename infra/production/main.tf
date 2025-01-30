@@ -5,7 +5,7 @@ module "mta_sts" {
   azure_resource_group_name = "rg-mta-sts-thorstensauter-com-prod-001"
   azure_static_web_app_name = "stapp-mta-sts-thorstensauter-com-prod-01"
   azure_tags                = var.tags
-  mta_sts_mode              = "enforce"
+  mta_sts_mode              = "testing"
   mx_hosts = [
     "thorstensauter-com.n-v1.mx.microsoft"
   ]
