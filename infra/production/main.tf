@@ -1,5 +1,5 @@
 module "mta_sts" {
-  source                    = "github.com/ThorstenSauter/mta-sts-cloudflare-azure-static-web-app?ref=1.0.3"
+  source                    = "github.com/ThorstenSauter/mta-sts-cloudflare-azure-static-web-app?ref=1.0.4"
   domain                    = "thorstensauter.com"
   azure_location            = var.location
   azure_resource_group_name = "rg-mta-sts-thorstensauter-com-prod-001"
